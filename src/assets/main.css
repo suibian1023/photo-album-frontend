@@ -1,0 +1,91 @@
+/* assets/main.css */
+/* 页面容器 */
+.page-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: var(--spacing-lg);
+}
+
+/* 卡片通用样式 */
+.card {
+  background: #fff;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  transition: box-shadow var(--transition-fast);
+}
+.card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+/* 弹性布局工具 */
+.flex { display: flex; }
+.flex-col { flex-direction: column; }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+.flex-1 { flex: 1; }
+
+/* 间距工具（类似 Tailwind） */
+.mt-1 { margin-top: var(--spacing-xs); }
+.mt-2 { margin-top: var(--spacing-sm); }
+.mt-4 { margin-top: var(--spacing-md); }
+.mb-4 { margin-bottom: var(--spacing-md); }
+.p-4 { padding: var(--spacing-md); }
+
+/* 文本工具 */
+.text-center { text-align: center; }
+.text-secondary { color: var(--text-secondary); }
+
+/* 图片网格通用 */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--spacing-md);
+}
+
+/* 深色模式 - Element Plus 组件样式覆盖 */
+
+/* 下拉框输入框 */
+[data-theme="dark"] .el-select__wrapper {
+  background-color: rgba(30, 30, 35, 0.9) !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+  box-shadow: none !important;
+}
+
+[data-theme="dark"] .el-select__wrapper:hover {
+  border-color: var(--primary-color) !important;
+}
+
+[data-theme="dark"] .el-select__selected-item {
+  color: var(--text-primary) !important;
+}
+
+[data-theme="dark"] .el-select__placeholder {
+  color: var(--text-secondary) !important;
+}
+
+[data-theme="dark"] .el-select__caret {
+  color: var(--text-secondary) !important;
+}
+
+/* 下拉面板 */
+[data-theme="dark"] .el-select-dropdown {
+  background-color: rgba(30, 30, 35, 0.95) !important;
+  backdrop-filter: blur(12px);
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+[data-theme="dark"] .el-select-dropdown__item {
+  color: var(--text-regular) !important;
+}
+
+[data-theme="dark"] .el-select-dropdown__item.hover,
+[data-theme="dark"] .el-select-dropdown__item:hover {
+  background-color: rgba(64, 158, 255, 0.2) !important;
+  color: var(--primary-color) !important;
+}
+
+[data-theme="dark"] .el-select-dropdown__item.selected {
+  color: var(--primary-color) !important;
+  background-color: rgba(64, 158, 255, 0.1) !important;
+}
