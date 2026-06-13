@@ -1,43 +1,43 @@
-# photo-album-frontend
+# 轻松相册
 
-This template should help get you started developing with Vue 3 in Vite.
+此模板可帮助您在 Vite 中开始使用 Vue 3 进行开发。
 
-## Recommended IDE Setup
+## 推荐的 IDE 设置
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+[VS Code](https://code.visualstudio.com/) + [Vue (官方)](https://marketplace.visualstudio.com/items?itemName=Vue.volar)（并禁用 Vetur）。
 
-## Recommended Browser Setup
+## 推荐的浏览器设置
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
+- 基于 Chromium 的浏览器（Chrome、Edge、Brave 等）：
   - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
+  - [在 Chrome DevTools 中启用自定义对象格式化程序](http://bit.ly/object-formatters)
+- Firefox：
   - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+  - [在 Firefox DevTools 中启用自定义对象格式化程序](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
 
-## Customize configuration
+## 自定义配置
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+请参阅 [Vite 配置参考](https://vite.dev/config/)。
 
-## Project Setup
+## 项目设置
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### 编译和热重载以进行开发
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### 编译和压缩以用于生产环境
 
 ```sh
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### 使用 [ESLint](https://eslint.org/) 进行代码检查
 
 ```sh
 npm run lint
